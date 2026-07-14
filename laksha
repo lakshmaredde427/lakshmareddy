@@ -1,0 +1,6 @@
+import os
+
+print("Workspace:", os.getenv("WORKSPACE"))
+print("Job Name:", os.getenv("JOB_NAME"))
+print("Build Number:", os.getenv("BUILD_NUMBER"))
+print("Node Name:", os.getenv("NODE_NAME"))
