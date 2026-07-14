@@ -1,5 +1,14 @@
-def greet(name):
-    return f"Hello, {name}! Welcome to Jenkins."
+employees = [
+    {"id": 101, "name": "Lakshma", "department": "DevOps"},
+    {"id": 102, "name": "Rahul", "department": "Testing"},
+    {"id": 103, "name": "Anitha", "department": "Development"}
+]
 
-if __name__ == "__main__":
-    print(greet("Lakshma"))
+print("Employee Details")
+print("----------------")
+
+for emp in employees:
+    print(f"ID: {emp['id']}")
+    print(f"Name: {emp['name']}")
+    print(f"Department: {emp['department']}")
+    print()
